@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graphic Design Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Graphic Designer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm [Your Name], a passionate graphic designer with 3+ years of experience. I love creating visually stunning designs that tell a story and connect with audiences. I specialize in logo design, branding, posters, social media content, and UI design.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Logo & Branding</li>
+      <li>Social Media Graphics</li>
+      <li>Posters & Flyers</li>
+      <li>UI/UX Design</li>
+      <li>Photo Editing</li>
+      <li>Adobe Photoshop | Illustrator | Canva | Figma</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Logo for Brand Name</h3>
+      <p>Minimalist, bold logo for a fashion brand.</p>
+    </div>
+    <div class="project">
+      <h3>Instagram Post Series</h3>
+      <p>Created colorful, engaging posts for a local cafe.</p>
+    </div>
+    <div class="project">
+      <h3>Event Poster</h3>
+      <p>Designed an eye-catching poster for a music festival.</p>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>
+      "[Your Name] is a creative genius! Loved working with them on our branding project." – Client Name
+    </blockquote>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>Instagram: @yourhandle</p>
+    <p>Website: yourlink.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+<!-- styles.css file -->
+/* Place this in a file named styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+section {
+  padding: 2rem;
+  background: white;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #444;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "✔";
+  margin-right: 10px;
+  color: green;
+}
+
+.project {
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ddd;
+  margin-top: 2rem;
+}
+
+/* JavaScript (optional): Add this for basic interaction if needed */
+<script>
+  // Example: Alert on clicking email
+  document.querySelector('.contact p').addEventListener('click', function() {
+    alert("Email clicked!");
+  });
+</script>
